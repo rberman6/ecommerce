@@ -1,0 +1,94 @@
+@import "./variables";
+
+.wrapper {
+    width: 90%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+button {
+    // Default button styles//
+    color: $primary;
+    background-color: transparent;
+    padding: 18px 36px;
+    border: 2px solid $primary;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        background-color: $primary;
+        color: $solidWhite;
+    }
+    &:focus {
+        background-color: $primary;
+        color: $solidWhite;
+    }
+    
+     // Styles for buttons with "secondary" class
+    &.secondary {
+        background-color: transparent;
+        border-color: $solidWhite;
+        color: $solidWhite; 
+        padding: 8px 12px;
+        &.hover {
+            background-color: $solidWhite;
+            color: $primary;
+        }
+        &.focus {
+            background-color: $solidWhite;
+            color: $primary;
+        }
+    }
+
+    // Styles for buttons with "solid" class //
+    &.solid {
+        color: $solidWhite;
+        background-color: $primary;
+        &:hover {
+            color: $primary;
+            background-color: $solidWhite;
+        }
+        &:focus {
+            color: $primary;
+            background-color: $solidWhite;
+        }
+    }
+
+    // Styles for icon button in main navigation //
+    &.menuIcon {
+        border: none;
+        padding: 0;
+        display: inherit;
+        &:hover {
+            background-color: transparent;
+        }
+        &:focus {
+            background-color: transparent;
+        }
+    }
+}
+
+a {
+    &.button {
+        color: $primary;
+        background-color: transparent;
+        padding: 18px 36px;
+        border: 2px solid $primary;
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+        text-align: center;
+        transition: 0.3s;
+        &:hover {
+            background-color: $primary;
+            color: $solidWhite;
+        }
+        &:focus {
+            background-color: $primary;
+            color: $solidWhite;
+        }
+    }
+}
