@@ -424,3 +424,61 @@ a.button:focus {
 .skipLink:focus {
   left: 0;
 }
+
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1 px solid rgba(8, 75, 109, 0.08);
+}
+.navBar .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.searchCart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.counter p {
+  background-color: #084b6d;
+  color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+
+.slideOutNav {
+  height: 100vh;
+  z-index: 20;
+  background-color: #084b6d;
+  color: #fff;
+  width: 100%;
+  max-width: 500px;
+  position: fixed;
+  top: 0;
+  padding: 35px 50px;
+}
+.slideOutNav .buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.slideOutNav .buttonContainer button {
+  padding: 10px 0 10px 20px;
+}
