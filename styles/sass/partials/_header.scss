@@ -1,0 +1,26 @@
+header {
+    background-color: $tertiary;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .headerImgContainer {
+        width: 45%;
+
+        // img {
+        //     max-width: 100%;
+        //     display: block;
+        // } this should be in _setup partial
+    }
+
+    .headerContent {
+        width: 55%;
+        color: $primary;
+
+        .contentContainer {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+}

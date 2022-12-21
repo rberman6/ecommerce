@@ -18,10 +18,7 @@
             line-height: 1.5rem;
             color: rgba($solidWhite, 0.5);
 
-            &:hover {
-                color: rgba($solidWhite, 1);
-            }
-
+            &:hover,
             &:focus {
                 color: rgba($solidWhite, 1);
             }
