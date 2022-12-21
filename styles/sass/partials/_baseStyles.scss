@@ -82,6 +82,7 @@ a {
         line-height: 1.2rem;
         text-align: center;
         transition: 0.3s;
+
         &:hover {
             background-color: $primary;
             color: $solidWhite;
@@ -89,6 +90,27 @@ a {
         &:focus {
             background-color: $primary;
             color: $solidWhite;
+        }
+    }
+
+// styles for anchors with a class of "solid" //
+    &.solid {
+        color: $solidWhite;
+        background-color: $primary;
+        border: 2px solid $primary;
+        padding: 18px 36px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+        text-align: center;
+
+        &:hover {
+            color: $primary;
+            background-color: $solidWhite;
+        }
+        &:focus {
+            color: $primary;
+            background-color: $solidWhite;
         }
     }
 }

@@ -413,6 +413,24 @@ a.button:focus {
   background-color: #084b6d;
   color: #fff;
 }
+a.solid {
+  color: #fff;
+  background-color: #084b6d;
+  border: 2px solid #084b6d;
+  padding: 18px 36px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  text-align: center;
+}
+a.solid:hover {
+  color: #084b6d;
+  background-color: #fff;
+}
+a.solid:focus {
+  color: #084b6d;
+  background-color: #fff;
+}
 
 .skipLink {
   font-size: 1rem;
@@ -605,4 +623,33 @@ header .headerContent .contentContainer {
 }
 .categoryGallery .item4 a {
   background-color: #fff5f5;
+}
+
+.play {
+  background-image: url("../assets/background-image.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.play .playContainer {
+  background-color: #fff;
+  border: 24px solid #f4fcff;
+  max-width: 650px;
+  padding: 70px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

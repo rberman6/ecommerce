@@ -1,8 +1,8 @@
-
+// category section!! //
 .categories {
     margin-bottom: 90px;
 }
-
+// Gallery section!! //
 .categoryGallery {
     display: flex;
     justify-content: center;
@@ -53,5 +53,24 @@
 
     .item4 a {
         background-color: $quaternary;
+    }
+}
+// lets play section !! //
+.play {
+    background-image: url("../assets/background-image.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+
+    .playContainer {
+        background-color: $solidWhite;
+        border: 24px solid $secondary;
+        max-width: 650px;
+        padding: 70px 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
